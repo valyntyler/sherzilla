@@ -1,5 +1,7 @@
 #!/usr/bin/env nu
 
+use mozilla
+
 def main [] {
-  print "Hello, world!"
+  mozilla apps
 }
